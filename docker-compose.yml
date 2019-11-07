@@ -1,0 +1,17 @@
+version: "2"
+
+services:
+  pycrypto:
+    image: pycrypto
+    build:
+      context: ./pycrypto
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/files
+  pycryptodome:
+    image: pycryptodome
+    build:
+      context: ./pycryptodome
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/files
