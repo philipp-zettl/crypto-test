@@ -43,4 +43,4 @@ if __name__ == '__main__':
     with open('/files/encryption.txt', 'a') as file:
         file.write(format_output_string(f'encryption of "value": {val}'))
         file.write(format_output_string(f'decryption: {decrypt(val)}'))
-        file.write(format_output_string(f'decryption of pycrypto encrypted value: {decrypt("ARtvLBk1r51F8k4Y6SEDMEBwPRsRG0TmXz5rkd8ofB1/FRDl1/pCCY3gKpC5Jt0I")}'))
+        file.write(format_output_string(f'decryption of pycryptodome encrypted value: {decrypt("ARtvLBk1r51F8k4Y6SEDMEBwPRsRG0TmXz5rkd8ofB1/FRDl1/pCCY3gKpC5Jt0I")}'))
